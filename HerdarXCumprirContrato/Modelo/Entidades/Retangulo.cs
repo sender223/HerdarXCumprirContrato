@@ -3,8 +3,8 @@ using System;
 using System.Globalization;
 
 namespace HerdarXCumprirContrato.Modelo.Entidades {
-    //classe herdada de shape
-    class Retangulo : Formas {
+    //classe herdada de Forma  - com o modo em Interface ela irá herdar de FormasAbstratas
+    class Retangulo : FormasAbstratas {
         
         //propriedade autoimplementada
         public double Largura { get; set; }

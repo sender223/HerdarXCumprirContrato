@@ -3,8 +3,8 @@ using System;
 using System.Globalization;
 
 namespace HerdarXCumprirContrato.Modelo.Entidades {
-    //classe herdada de Formas
-    class Circulo : Formas {
+    //classe herdada de Formas - com o modo em Interface ela irá herdar de FormasAbstratas
+    class Circulo : FormasAbstratas {
         //propriedade autoimplementada
         public double Raio { get; set; }
         //operação de area do circulo
